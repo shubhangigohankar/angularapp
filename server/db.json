@@ -1,0 +1,16 @@
+{
+  "employees": [
+    {
+      "Projectname": "Telstra",
+      "resourcedate": "2020-04-12T18:30:00.000Z",
+      "resoucehrs": "5",
+      "id": 1
+    },
+    {
+      "Projectname": "vodafone",
+      "resourcedate": "2020-04-12T18:30:00.000Z",
+      "resoucehrs": "4",
+      "id": 3
+    }
+  ]
+}

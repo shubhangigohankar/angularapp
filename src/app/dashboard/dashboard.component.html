@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="shu-color">
+    <div class="dashform">
+      <div class="calendar">
+        <h6>DATE RANGE</h6>
+      <span><input type="date">--<input type="date"></span>
+     <button style="margin:5px"><i class="fa fa-arrow-left" ></i></button> 
+    <button style="margin:5px"><i class="fa fa-arrow-right"></i></button> 
+    <button style="margin:5px" type="button" class="btn" (click)="showdate()">Today</button>        
+</div>
+<div class="addprojectbtn">
+    <a routerLink="/addproject" class="btn btn-dark">Add Project</a>
+</div>
+<div class="row" >
+    <div class="col-md-12">
+        <div class="inner">
+            
+            <table class="table">
+                <thead>
+                    <tr >
+              
+                        <th scope="col">Project Name</th>
+                        <th scope="col">{{dateStr}}</th>
+                        
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let projectlist of Projectlist">
+                        
+                        <td>{{projectlist.Projectname}}</td>
+                        <td>{{projectlist.resoucehrs}}</td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>   
+</div>
+</div>
+</div>
+</div>

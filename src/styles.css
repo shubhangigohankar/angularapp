@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+.shu-color{background-color: whitesmoke;
+margin-top:150px;
+border:3px solid whitesmoke;
+ 
+}
+.dashform{  color:black; 
+    position:relative;  
+}
+
+button[type=button]{
+    border:1px solid black;
+    text-align:center;
+}
+.addprojectbtn{margin-right:30px;margin-bottom:20px;text-align:right}
+
+.demo-full {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    
+  }
+  
+  .demo-full-width {
+    width: 100%;
+  } 
+  
+  
+  
